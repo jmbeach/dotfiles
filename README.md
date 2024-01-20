@@ -13,3 +13,10 @@
 ## Tmux
 
 [tmux conf](./tmux/tmux.conf)
+
+## Keyboard Mappings
+
+### Autohotkey (Windows)
+
+[Autohotkey config](https://github.com/jmbeach/autohotkey-scripts)
+
