@@ -1,0 +1,46 @@
+set relativenumber
+set ignorecase
+" Use spacebar as leader key
+let mapleader = " "
+
+" Windows
+nnoremap <c-h> <c-w>h
+nnoremap <c-l> <c-w>l
+
+" Make control + u and control + d stay centered
+nnoremap <C-u> <C-u>zz
+nnoremap <C-d> <C-d>zz
+
+" enable which key
+set which-key
+set notimeout
+let g:WhichKey_ShowVimActions = "true"
+
+" enable KJump which is like leap or flash
+nnoremap s :action KJumpAction.Word1<cr>
+
+" paste keys
+let g:WhichKeyDesc_paste = "<leader>p +Paste"
+" paste 🚨DON'T CHECK IN 🚨
+nnoremap <Leader>pd i// 🚨DON'T CHECK IN 🚨<ESC>
+
+" Use H and L to go to previous and next tabs
+nnoremap H :bp<cr>
+nnoremap L :bn<cr>
+
+" Leader e opens the side bar
+let g:WhichKeyDesc_ProjectToolWindow = "<leader>e Activate Project Tool Window"
+nmap <Leader>e :action ActivateProjectToolWindow<CR>
+" Leader h closes the active window (such as the side bar)
+let g:WhichKeyDesc_HideActiveWindow = "<leader>h Hide Active Window"
+nmap <Leader>h :action HideActiveWindow<CR>
+
+let g:WhichKeyDesc_FindInPath = "<leader><space> Find Files (root dir)"
+nmap <Leader><Space> :action FindInPath<CR>
+
+" control + / opens the run tool window
+nnoremap <C-/> :action ActivateRunToolWindow<CR>
+
+let g:WhichKeyDesc_DiagnosticsQuickfix = "<leader>x +diagnostics/quickfix"
+let g:WhichKeyDesc_ActivateProblemsWindow = "<leader>xx Activate Problems Tool Window"
+nmap <Leader>xx :action ActivateProblemsViewToolWindow<CR>
