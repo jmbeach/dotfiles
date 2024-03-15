@@ -14,6 +14,10 @@
 
 [tmux conf](./tmux/tmux.conf)
 
+## Fish Config
+
+[fish conf](https://github.com/jmbeach/my-fish-config)
+
 ## Keyboard Mappings
 
 ### Keyboard Maestro (Mac)
