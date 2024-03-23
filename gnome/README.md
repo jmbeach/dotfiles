@@ -30,7 +30,7 @@ Go to `/org/gnome/desktop/wm/keybindings/`
 
 - Set "move-to-center" to `[<Super><Shift>c]`.
 - Set "switch-to-workspace1" to `['<Super>1']`
-- Set "switch-to-workspace2" to `['<Super>2']`
+- Set "switch-to-workspace2" to `['<Super>2']
 - ...
 - Set "switch-to-workspace10" to `['<Super>10']`
 
