@@ -4,7 +4,7 @@
 
 ## Lazyvim
 
-[Lazyvim / nvim config repo](https://github.com/jmbeach/nvim-config)
+[Lazyvim / Nvim Config Repo](https://github.com/jmbeach/nvim-config)
 
 ## Alacritty
 
@@ -12,11 +12,11 @@
 
 ## Tmux
 
-[tmux conf](./tmux/tmux.conf)
+[Tmux Config](./tmux/tmux.conf)
 
 ## Fish Config
 
-[fish conf](https://github.com/jmbeach/my-fish-config)
+[Fish Config](https://github.com/jmbeach/my-fish-config)
 
 ## Keyboard Mappings
 
@@ -26,5 +26,9 @@
 
 ### Autohotkey (Windows)
 
-[Autohotkey config](https://github.com/jmbeach/autohotkey-scripts)
+[Autohotkey Config](https://github.com/jmbeach/autohotkey-scripts)
+
+### Autohotkey X11 (Linux)
+
+[Autohotkey X11 Config](https://github.com/jmbeach/ahk_x11-scripts)
 
