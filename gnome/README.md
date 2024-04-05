@@ -20,10 +20,6 @@ Go to `/org/gnome/shell/keybindings`
 
 Clear the values for all of the settings with names like `switch-to-application-n`
 
-Go to `/org/gnome/shell/extensions/dash-to-dock`
-
-Clear the values for all of the settings with names like `app-hotkey-n`
-
 ### Set preferred keybindings
 
 Go to `/org/gnome/desktop/wm/keybindings/`
@@ -34,3 +30,14 @@ Go to `/org/gnome/desktop/wm/keybindings/`
 - ...
 - Set "switch-to-workspace10" to `['<Super>10']`
 
+## Install Extensions
+
+### [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
+
+I install this and then turn off "Use keyboard shortcuts to activate apps".
+
+Under "Intelligent autohide customization", I turn off "Dodge windows".
+
+### [Walkpaper2](https://extensions.gnome.org/extension/5267/walkpaper2/)
+
+I install this so that I can have a different wallpaper on each desktop.
