@@ -16,13 +16,16 @@ dconf write /org/gnome/desktop/wm/preferences/num-workspaces 10
 
 Install `dconf-editor`.
 
-### Disable default behavior of Super key + number
+### Set preferred keybindings
 
 Go to `/org/gnome/shell/keybindings`
 
-Clear the values for all of the settings with names like `switch-to-application-n`
+- Clear the values for all of the settings with names like `switch-to-application-n`
+- Set `toggle-overview` to `['<Super>Tab', '<Super>d']`
 
-### Set preferred keybindings
+Go to `/org/gnome/mutter`
+
+- Clear the value for "overlay-key"
 
 Go to `/org/gnome/desktop/wm/keybindings/`
 
@@ -32,6 +35,8 @@ Go to `/org/gnome/desktop/wm/keybindings/`
 - ...
 - Set "switch-to-workspace10" to `['<Super>10']`
 - Set "minimize" to `[]`
+- Set "switch-applications" to `[]`
+- Set "show-desktop" to `[]`
 
 ## Install Extensions
 
