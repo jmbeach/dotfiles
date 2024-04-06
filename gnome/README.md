@@ -1,5 +1,7 @@
 # GNOME settings
 
+> 🗒 Some hotkeys I use, such as my layout manager are configured using [AHK_X11](https://github.com/phil294/AHK_X11). See my separate repo of AHK_X11 scripts [here](https://github.com/jmbeach/ahk_x11-scripts).
+
 ## Switch to Static Workspaces
 
 I like to disable dynamic workspaces and set there to be 10 by default.

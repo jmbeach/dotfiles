@@ -18,6 +18,10 @@
 
 [Fish Config](https://github.com/jmbeach/my-fish-config)
 
+## GNOME Config
+
+[GNOME Config](./gnome)
+
 ## Keyboard Mappings
 
 ### Keyboard Maestro (Mac)
