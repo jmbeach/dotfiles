@@ -28,9 +28,10 @@ Go to `/org/gnome/desktop/wm/keybindings/`
 
 - Set "move-to-center" to `[<Super><Shift>c]`.
 - Set "switch-to-workspace1" to `['<Super>1']`
-- Set "switch-to-workspace2" to `['<Super>2']
+- Set "switch-to-workspace2" to `['<Super>2']`
 - ...
 - Set "switch-to-workspace10" to `['<Super>10']`
+- Set "minimize" to `[]`
 
 ## Install Extensions
 
@@ -43,3 +44,23 @@ Under "Intelligent autohide customization", I turn off "Dodge windows".
 ### [Walkpaper2](https://extensions.gnome.org/extension/5267/walkpaper2/)
 
 I install this so that I can have a different wallpaper on each desktop.
+
+### [Emoji Selector](https://extensions.gnome.org/extension/1162/emoji-selector/)
+
+🤓 I configure this to use `Win + .` to open and hide it in the top panel.
+
+## Ubuntu-Specific Settings
+
+The following are under `Keyboard > Keyboard Shortcuts` in system settings.
+
+Under `System`
+
+- Disable `Lock Screen` with `Super + L` (hit it on accident too much)
+- Disable `Show all applications` with `Super + A` (I replace it in AHK_X11 with `ctrl + A`)
+- Disable `Show the notification list` with `Super + V` (I replace it in AHK_X11 with `ctrl + V`)
+- Disable `Restore the keyboard shortcuts with Super+Escape` (Thanks for the offer of undoing all my work on accident, but I'll pass)
+- Set `Show the run command prompt` to `Super + R`
+
+Under `Windows`
+
+- Disable `Hide window` with `Super + H` (I don't really ever want to do this and hit it on accident too much)
