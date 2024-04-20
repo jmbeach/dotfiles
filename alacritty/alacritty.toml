@@ -3,11 +3,16 @@
 program = "C:\\Windows\\System32\\wsl.exe"
 args = ["-d", "Ubuntu"]
 
+[font]
+size = 14
+
 [font.normal]
 family = "Hack Nerd Font"
 
 [window]
-opacity = 0.9
+opacity = 0.90
+decorations = "Buttonless"
+option_as_alt = "Both"
 
-[env]
-TERM = "xterm-256color"
+[colors.primary]
+background = "#1f2937"
