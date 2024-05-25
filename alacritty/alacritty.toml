@@ -15,4 +15,9 @@ decorations = "Buttonless"
 option_as_alt = "Both"
 
 [colors.primary]
+# dark
 background = "#1f2937"
+
+# light
+# background = "#fef6fa"
+# foreground = "#2a2b33"
