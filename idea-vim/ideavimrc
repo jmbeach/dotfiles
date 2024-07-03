@@ -1,3 +1,4 @@
+Plug 'tpope/vim-surround'
 set relativenumber
 set ignorecase
 " Use spacebar as leader key
@@ -10,6 +11,11 @@ nnoremap <c-l> <c-w>l
 " Make control + u and control + d stay centered
 nnoremap <C-u> <C-u>zz
 nnoremap <C-d> <C-d>zz
+nnoremap <c-j> 10jzz
+nnoremap <c-k> 10kzz
+
+nnoremap <c-y> :action EditorMoveUpAndScroll<CR>
+nnoremap <c-e> :action EditorMoveDownAndScroll<CR>
 
 " enable which key
 set which-key
@@ -19,14 +25,18 @@ let g:WhichKey_ShowVimActions = "true"
 " enable KJump which is like leap or flash
 nnoremap s :action KJumpAction.Word1<cr>
 
+" Go to references
+let g:WhichKeyDesc_GotoReferences = "gr References"
+nnoremap gr :action FindUsages<CR>
+
 " paste keys
 let g:WhichKeyDesc_paste = "<leader>p +Paste"
 " paste 🚨DON'T CHECK IN 🚨
 nnoremap <Leader>pd i// 🚨DON'T CHECK IN 🚨<ESC>
 
 " Use H and L to go to previous and next tabs
-nnoremap H :bp<cr>
-nnoremap L :bn<cr>
+nnoremap H :action PreviousTab<cr>
+nnoremap L :action NextTab<cr>
 
 " Leader e opens the side bar
 let g:WhichKeyDesc_ProjectToolWindow = "<leader>e Activate Project Tool Window"
@@ -35,12 +45,67 @@ nmap <Leader>e :action ActivateProjectToolWindow<CR>
 let g:WhichKeyDesc_HideActiveWindow = "<leader>h Hide Active Window"
 nmap <Leader>h :action HideActiveWindow<CR>
 
-let g:WhichKeyDesc_FindInPath = "<leader><space> Find Files (root dir)"
-nmap <Leader><Space> :action FindInPath<CR>
+let g:WhichKeyDesc_FindInFile = "<leader>/ [/] Find in current file"
+nmap <Leader>/ :action FindInFile<CR>
+let g:WhichKeyDesc_ExistingBuffers = "<leader><Space> [ ] Find existing buffers"
+nmap <Leader><Space> :action Switcher<CR>
+let g:WhichKeyDesc_Search = "<leader>s +search"
+let g:WhichKeyDesc_SearchFiles = "<leader>sf Search Files"
+nmap <Leader>sf :action GotoFile<CR>
+let g:WhichKeyDesc_SearchGrep = "<leader>sg Search Grep"
+nmap <Leader>sg :action FindInPath<CR>
 
-" control + / opens the run tool window
-nnoremap <C-/> :action ActivateRunToolWindow<CR>
+" control + / opens the terminal tool window
+nnoremap <C-/> :action ActivateTerminalToolWindow<CR>
 
 let g:WhichKeyDesc_DiagnosticsQuickfix = "<leader>x +diagnostics/quickfix"
 let g:WhichKeyDesc_ActivateProblemsWindow = "<leader>xx Activate Problems Tool Window"
 nmap <Leader>xx :action ActivateProblemsViewToolWindow<CR>
+
+" Window keys
+let g:WhichKeyDesc_Windows = "<leader>w +windows"
+let g:WhichKeyDesc_RunWindow = "<leader>wr Show Run Window"
+nmap <Leader>wr :action ActivateRunToolWindow<CR>
+let g:WhichKeyDesc_FindWindow = "<leader>wf Show Find Window"
+nmap <Leader>wf :action ActivateFindToolWindow<CR>
+let g:WhichKeyDesc_BuildWindow = "<leader>wb Show Build Window"
+nmap <Leader>wb :action ActivateBuildToolWindow<CR>
+let g:WhichKeyDesc_ProblemsWindow = "<leader>wp Show Problems Window"
+nmap <Leader>wp :action ActivateProblemsViewToolWindow<CR>
+let g:WhichKeyDesc_TerminalWindow = "<leader>wt Show Terminal Window"
+nmap <Leader>wt :action ActivateTerminalToolWindow<CR>
+
+" Code keys
+let g:WhichKeyDesc_Code = "<leader>c +code"
+let g:WhichKeyDesc_CodeRename = "<leader>cr Rename"
+nmap <Leader>cr :action RenameElement<CR>
+let g:WhichKeyDesc_CodeFormat = "<leader>cf Format"
+nmap <Leader>cf :action ReformatCode<CR>
+let g:WhichKeyDesc_CodeGenerate = "<leader>cg Generate"
+nmap <Leader>cg :action Generate<CR>
+let g:WhichKeyDesc_CodeBookmark = "<leader>cB Bookmark"
+nmap <Leader>cB :action ToggleBookmark<CR>
+let g:WhichKeyDesc_CodeBreakpoint = "<leader>cb Breakpoint"
+nmap <Leader>cb :action ToggleLineBreakpoint<CR>
+
+" File keys
+let g:WhichKeyDesc_File = "<leader>f +file"
+let g:WhichKeyDesc_CopyFilePath = "<leader>fp Copy file path"
+nmap <Leader>fp :action CopyAbsolutePath<CR>
+
+let g:WhichKeyDesc_GSurround = "gs +surround"
+let g:WhichKeyDesc_GSurroundAdd = "gsa Add surrounding"
+" Make gsa just call tpope surround
+vmap gsa S
+
+let g:WhichKeyDesc_Buffer = "<leader>b +[B]uffer"
+let g:WhichKeyDesc_Buffer = "<leader>bd [B]uffer [D]elete"
+nmap <Leader>bd :bd<cr>
+
+" General
+vmap <leader>y "+y
+
+let g:WhichKeyDesc_GoToNextDiagnostic = "]d Go to next [D]iagnostic"
+let g:WhichKeyDesc_GoToPrevDiagnostic = "[d Go to prev [D]iagnostic"
+nmap ]d :action GotoNextError<CR>
+nmap [d :action GotoPreviousError<CR>
