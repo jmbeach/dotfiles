@@ -30,9 +30,13 @@ let g:WhichKeyDesc_GotoReferences = "gr References"
 nnoremap gr :action FindUsages<CR>
 
 " paste keys
-let g:WhichKeyDesc_paste = "<leader>p +Paste"
+let g:WhichKeyDesc_PasteSubmenu = "<leader>v +Paste"
 " paste 🚨DON'T CHECK IN 🚨
-nnoremap <Leader>pd i// 🚨DON'T CHECK IN 🚨<ESC>
+nnoremap <Leader>vd i// 🚨DON'T CHECK IN 🚨<ESC>
+
+let g:WhichKeyDesc_paste = "<leader>p Paste"
+" paste
+nnoremap <Leader>p "+p<ESC>
 
 " Use H and L to go to previous and next tabs
 nnoremap H :action PreviousTab<cr>
@@ -76,22 +80,35 @@ let g:WhichKeyDesc_TerminalWindow = "<leader>wt Show Terminal Window"
 nmap <Leader>wt :action ActivateTerminalToolWindow<CR>
 
 " Code keys
-let g:WhichKeyDesc_Code = "<leader>c +code"
+let g:WhichKeyDesc_Code = "<leader>c +[C]ode"
 let g:WhichKeyDesc_CodeRename = "<leader>cr Rename"
 nmap <Leader>cr :action RenameElement<CR>
 let g:WhichKeyDesc_CodeFormat = "<leader>cf Format"
 nmap <Leader>cf :action ReformatCode<CR>
 let g:WhichKeyDesc_CodeGenerate = "<leader>cg Generate"
 nmap <Leader>cg :action Generate<CR>
-let g:WhichKeyDesc_CodeBookmark = "<leader>cB Bookmark"
-nmap <Leader>cB :action ToggleBookmark<CR>
-let g:WhichKeyDesc_CodeBreakpoint = "<leader>cb Breakpoint"
-nmap <Leader>cb :action ToggleLineBreakpoint<CR>
+let g:WhichKeyDesc_CodeGoToImplementation = "<leader>ci [C]ode [I]mplementation"
+nmap <Leader>ci :action GotoImplementation<CR>
+let g:WhichKeyDesc_CodeCompile = "<leader>cb [C]ode [C]ompile"
+nmap <Leader>cc :action CompileProject<CR>
+
+" Toggle keys
+let g:WhichKeyDesc_Toggle = "<leader>t +[T]oggle"
+let g:WhichKeyDesc_ToggleBookmark = "<leader>tB Bookmark"
+nmap <Leader>tB :action ToggleBookmark<CR>
+let g:WhichKeyDesc_ToggleBreakpoint = "<leader>tb Breakpoint"
+nmap <Leader>tb :action ToggleLineBreakpoint<CR>
+let g:WhichKeyDesc_ToggleCopilotDisable = "<leader>tC [C]opilot Disable"
+let g:WhichKeyDesc_ToggleCopilotEnable = "<leader>tc [C]opilot Enable"
+nmap <Leader>tc :action copilot.enableCopilot<CR>
+nmap <Leader>tC :action copilot.disableCopilot<CR>
 
 " File keys
 let g:WhichKeyDesc_File = "<leader>f +file"
 let g:WhichKeyDesc_CopyFilePath = "<leader>fp Copy file path"
 nmap <Leader>fp :action CopyAbsolutePath<CR>
+let g:WhichKeyDesc_FileSelectOpen = "<leader>fs [S]elect Open [F]ile"
+nmap <Leader>fs :action SelectInProjectView<CR>
 
 let g:WhichKeyDesc_GSurround = "gs +surround"
 let g:WhichKeyDesc_GSurroundAdd = "gsa Add surrounding"
@@ -109,3 +126,12 @@ let g:WhichKeyDesc_GoToNextDiagnostic = "]d Go to next [D]iagnostic"
 let g:WhichKeyDesc_GoToPrevDiagnostic = "[d Go to prev [D]iagnostic"
 nmap ]d :action GotoNextError<CR>
 nmap [d :action GotoPreviousError<CR>
+let g:WhichKeyDesc_GoToNextChange = "]c Go to next [C]hange"
+let g:WhichKeyDesc_GoToPrevChange = "[c Go to prev [C]hange"
+nmap ]c :action VcsShowNextChangeMarker<CR>
+nmap [c :action VcsShowPrevChangeMarker<CR>
+
+let g:WhichKeyDesc_GeneralComment = "gc +[C]omment"
+let g:WhichKeyDesc_GeneralComment = "gcc Comment"
+nmap gcc :action CommentByLineComment<CR>
+vmap gcc :action CommentByLineComment<CR>
