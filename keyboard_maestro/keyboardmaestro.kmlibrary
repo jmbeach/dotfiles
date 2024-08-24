@@ -72,7 +72,7 @@
 							AC5xAQAAKwAAAAEAAABp
 							AQAAe1xydGYxXGFuc2lc
 							YW5zaWNwZzEyNTJcY29j
-							b2FydGYyNzA5Clxjb2Nv
+							b2FydGYyNzYxClxjb2Nv
 							YXRleHRzY2FsaW5nMFxj
 							b2NvYXBsYXRmb3JtMHtc
 							Zm9udHRibFxmMFxmbmls
@@ -96,7 +96,7 @@
 							JVRyaWdnZXJDbGlwYm9h
 							cmQlfQEAAAAjAAAAAQAA
 							AAcAAABUWFQucnRmEAAA
-							AEkErGW2AQAAAAAAAAAA
+							AFJlyma2AQAAAAAAAAAA
 							AAA=
 							</data>
 							<key>Text</key>
@@ -1279,7 +1279,7 @@
 							<array>
 								<dict>
 									<key>DisplayKind</key>
-									<string>Window</string>
+									<string>None</string>
 									<key>IncludeStdErr</key>
 									<true/>
 									<key>MacroActionType</key>
@@ -1320,7 +1320,7 @@
 					<key>CreationDate</key>
 					<real>647280197.28622699</real>
 					<key>ModificationDate</key>
-					<real>727198226.58030796</real>
+					<real>737385725.39906394</real>
 					<key>Name</key>
 					<string>terminal</string>
 					<key>Triggers</key>
@@ -2006,8 +2006,10 @@
 					</array>
 					<key>CreationDate</key>
 					<real>696803411.19287598</real>
+					<key>IsActive</key>
+					<false/>
 					<key>ModificationDate</key>
-					<real>696803411.19287598</real>
+					<real>734472386.06348705</real>
 					<key>Triggers</key>
 					<array>
 						<dict>
@@ -2065,8 +2067,10 @@
 					</array>
 					<key>CreationDate</key>
 					<real>647130660.29940498</real>
+					<key>IsActive</key>
+					<false/>
 					<key>ModificationDate</key>
-					<real>647130660.29940498</real>
+					<real>734472383.45633101</real>
 					<key>Triggers</key>
 					<array>
 						<dict>
@@ -2254,6 +2258,114 @@
 			<key>Activate</key>
 			<string>Normal</string>
 			<key>CreationDate</key>
+			<real>647130933.469998</real>
+			<key>Macros</key>
+			<array>
+				<dict>
+					<key>Actions</key>
+					<array>
+						<dict>
+							<key>Conditions</key>
+							<dict>
+								<key>ConditionList</key>
+								<array>
+									<dict>
+										<key>Application</key>
+										<dict>
+											<key>BundleIdentifier</key>
+											<string>com.microsoft.VSCode</string>
+											<key>Name</key>
+											<string>Visual Studio Code</string>
+											<key>NewFile</key>
+											<string>/Applications/Visual Studio Code.app</string>
+										</dict>
+										<key>ApplicationConditionType</key>
+										<string>Active</string>
+										<key>ConditionType</key>
+										<string>Application</string>
+									</dict>
+								</array>
+								<key>ConditionListMatch</key>
+								<string>All</string>
+							</dict>
+							<key>ElseActions</key>
+							<array>
+								<dict>
+									<key>Action</key>
+									<string>MoveAndResize</string>
+									<key>HeightExpression</key>
+									<string>SCREEN(Front,Height)*30% - 10</string>
+									<key>HorizontalExpression</key>
+									<string>SCREENVISIBLE(Front,Left) + 10</string>
+									<key>MacroActionType</key>
+									<string>ManipulateWindow</string>
+									<key>Targeting</key>
+									<string>FrontWindow</string>
+									<key>TargetingType</key>
+									<string>Front</string>
+									<key>VerticalExpression</key>
+									<string>SCREEN(Front,Height)*70%</string>
+									<key>WidthExpression</key>
+									<string>SCREENVISIBLE(Front,Width) - 385</string>
+									<key>WindowIndexExpression</key>
+									<string>2</string>
+									<key>WindowName</key>
+									<string></string>
+								</dict>
+							</array>
+							<key>MacroActionType</key>
+							<string>IfThenElse</string>
+							<key>ThenActions</key>
+							<array>
+								<dict>
+									<key>KeyCode</key>
+									<integer>11</integer>
+									<key>MacroActionType</key>
+									<string>SimulateKeystroke</string>
+									<key>Modifiers</key>
+									<integer>4352</integer>
+									<key>ReleaseAll</key>
+									<false/>
+								</dict>
+							</array>
+							<key>TimeOutAbortsMacro</key>
+							<true/>
+						</dict>
+					</array>
+					<key>CreationDate</key>
+					<real>735744937.98303497</real>
+					<key>ModificationDate</key>
+					<real>735744982.14415503</real>
+					<key>Name</key>
+					<string>bottom with space for notifications</string>
+					<key>Triggers</key>
+					<array>
+						<dict>
+							<key>FireType</key>
+							<string>Pressed</string>
+							<key>KeyCode</key>
+							<integer>11</integer>
+							<key>MacroTriggerType</key>
+							<string>HotKey</string>
+							<key>Modifiers</key>
+							<integer>4352</integer>
+						</dict>
+					</array>
+					<key>UID</key>
+					<string>DEEBBBAE-36A0-41CB-B36F-D3252A414A10</string>
+				</dict>
+			</array>
+			<key>Name</key>
+			<string>layout</string>
+			<key>ToggleMacroUID</key>
+			<string>D01BB167-D813-461E-860E-3882ABD66C56</string>
+			<key>UID</key>
+			<string>F89497C1-9CE1-4CA6-A95B-41631780140A</string>
+		</dict>
+		<dict>
+			<key>Activate</key>
+			<string>Normal</string>
+			<key>CreationDate</key>
 			<real>696803411.19891405</real>
 			<key>Macros</key>
 			<array>
@@ -2329,11 +2441,33 @@
 							<key>WindowName</key>
 							<string></string>
 						</dict>
+						<dict>
+							<key>Action</key>
+							<string>MoveWindowBy</string>
+							<key>HeightExpression</key>
+							<string>300</string>
+							<key>HorizontalExpression</key>
+							<string>0</string>
+							<key>MacroActionType</key>
+							<string>ManipulateWindow</string>
+							<key>Targeting</key>
+							<string>FrontWindow</string>
+							<key>TargetingType</key>
+							<string>Front</string>
+							<key>VerticalExpression</key>
+							<string>10</string>
+							<key>WidthExpression</key>
+							<string>300</string>
+							<key>WindowIndexExpression</key>
+							<string>2</string>
+							<key>WindowName</key>
+							<string></string>
+						</dict>
 					</array>
 					<key>CreationDate</key>
 					<real>647198475.04974198</real>
 					<key>ModificationDate</key>
-					<real>722975692.12350798</real>
+					<real>735769019.03205001</real>
 					<key>Name</key>
 					<string>center</string>
 					<key>Triggers</key>
@@ -2521,6 +2655,91 @@
 			<string>D6D6832A-1C03-44C2-805E-ABB66B0063D2</string>
 			<key>UID</key>
 			<string>7F9A2E26-412C-44DA-8D81-B3102629022D</string>
+		</dict>
+		<dict>
+			<key>Activate</key>
+			<string>Normal</string>
+			<key>CreationDate</key>
+			<real>647130933.469998</real>
+			<key>Macros</key>
+			<array>
+				<dict>
+					<key>Actions</key>
+					<array>
+						<dict>
+							<key>Action</key>
+							<string>ResizeWindowTo</string>
+							<key>HeightExpression</key>
+							<string>300</string>
+							<key>HorizontalExpression</key>
+							<string>(SCREENVISIBLE(Front,Width)*50%) - 10</string>
+							<key>MacroActionType</key>
+							<string>ManipulateWindow</string>
+							<key>Targeting</key>
+							<string>FrontWindow</string>
+							<key>TargetingType</key>
+							<string>Front</string>
+							<key>VerticalExpression</key>
+							<string>(SCREENVISIBLE(Front,Height)*50%) - 10</string>
+							<key>WidthExpression</key>
+							<string>300</string>
+							<key>WindowIndexExpression</key>
+							<string>2</string>
+							<key>WindowName</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Action</key>
+							<string>CenterWindow</string>
+							<key>HeightExpression</key>
+							<string>300</string>
+							<key>HorizontalExpression</key>
+							<string>125</string>
+							<key>MacroActionType</key>
+							<string>ManipulateWindow</string>
+							<key>Targeting</key>
+							<string>FrontWindow</string>
+							<key>TargetingType</key>
+							<string>Front</string>
+							<key>VerticalExpression</key>
+							<string>125</string>
+							<key>WidthExpression</key>
+							<string>300</string>
+							<key>WindowIndexExpression</key>
+							<string>2</string>
+							<key>WindowName</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>CreationDate</key>
+					<real>733859750.93993795</real>
+					<key>ModificationDate</key>
+					<real>733860299.17378294</real>
+					<key>Name</key>
+					<string>center 4th</string>
+					<key>Triggers</key>
+					<array>
+						<dict>
+							<key>FireType</key>
+							<string>Pressed</string>
+							<key>KeyCode</key>
+							<integer>8</integer>
+							<key>MacroTriggerType</key>
+							<string>HotKey</string>
+							<key>Modifiers</key>
+							<integer>4864</integer>
+						</dict>
+					</array>
+					<key>UID</key>
+					<string>FA831768-E3B0-4A08-B7D2-6B8935FC88F6</string>
+				</dict>
+			</array>
+			<key>Name</key>
+			<string>layout</string>
+			<key>ToggleMacroUID</key>
+			<string>D01BB167-D813-461E-860E-3882ABD66C56</string>
+			<key>UID</key>
+			<string>F89497C1-9CE1-4CA6-A95B-41631780140A</string>
 		</dict>
 		<dict>
 			<key>Activate</key>
@@ -2782,7 +3001,7 @@
 					<key>CreationDate</key>
 					<real>647131621.832955</real>
 					<key>ModificationDate</key>
-					<real>715786462.00520003</real>
+					<real>733859867.50237203</real>
 					<key>Name</key>
 					<string>half screen left</string>
 					<key>Triggers</key>
@@ -2825,7 +3044,7 @@
 							<key>HeightExpression</key>
 							<string>SCREENVISIBLE(Main,Height)</string>
 							<key>HorizontalExpression</key>
-							<string>10</string>
+							<string>SCREENVISIBLE(Front,Left)+10</string>
 							<key>MacroActionType</key>
 							<string>ManipulateWindow</string>
 							<key>Targeting</key>
@@ -2845,7 +3064,7 @@
 					<key>CreationDate</key>
 					<real>647198087.08533895</real>
 					<key>ModificationDate</key>
-					<real>715786491.75061595</real>
+					<real>733763219.77051795</real>
 					<key>Name</key>
 					<string>top left</string>
 					<key>Triggers</key>
@@ -2888,7 +3107,7 @@
 							<key>HeightExpression</key>
 							<string>SCREENVISIBLE(Main,Height)*50% - 20</string>
 							<key>HorizontalExpression</key>
-							<string>10</string>
+							<string>SCREENVISIBLE(Front,Left)+10</string>
 							<key>MacroActionType</key>
 							<string>ManipulateWindow</string>
 							<key>Targeting</key>
@@ -2908,7 +3127,7 @@
 					<key>CreationDate</key>
 					<real>647196558.74551105</real>
 					<key>ModificationDate</key>
-					<real>722975485.00952005</real>
+					<real>733860239.32633305</real>
 					<key>Name</key>
 					<string>bottom left</string>
 					<key>Triggers</key>
@@ -2926,6 +3145,69 @@
 					</array>
 					<key>UID</key>
 					<string>395EF7A2-4721-486B-86A5-D80B2016869D</string>
+				</dict>
+			</array>
+			<key>Name</key>
+			<string>layout</string>
+			<key>ToggleMacroUID</key>
+			<string>D01BB167-D813-461E-860E-3882ABD66C56</string>
+			<key>UID</key>
+			<string>F89497C1-9CE1-4CA6-A95B-41631780140A</string>
+		</dict>
+		<dict>
+			<key>Activate</key>
+			<string>Normal</string>
+			<key>CreationDate</key>
+			<real>647130933.469998</real>
+			<key>Macros</key>
+			<array>
+				<dict>
+					<key>Actions</key>
+					<array>
+						<dict>
+							<key>Action</key>
+							<string>MoveAndResize</string>
+							<key>HeightExpression</key>
+							<string>SCREENVISIBLE(Front,Height)-20</string>
+							<key>HorizontalExpression</key>
+							<string>SCREENVISIBLE(Front,Left)+10</string>
+							<key>MacroActionType</key>
+							<string>ManipulateWindow</string>
+							<key>Targeting</key>
+							<string>FrontWindow</string>
+							<key>TargetingType</key>
+							<string>Front</string>
+							<key>VerticalExpression</key>
+							<string>SCREENVISIBLE(Front,Top)+10</string>
+							<key>WidthExpression</key>
+							<string>(SCREENVISIBLE(Front,Width)*50%) - 198</string>
+							<key>WindowIndexExpression</key>
+							<string>2</string>
+							<key>WindowName</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>CreationDate</key>
+					<real>737385935.51873302</real>
+					<key>ModificationDate</key>
+					<real>737386728.33090103</real>
+					<key>Name</key>
+					<string>half screen left with space for notifications</string>
+					<key>Triggers</key>
+					<array>
+						<dict>
+							<key>FireType</key>
+							<string>Pressed</string>
+							<key>KeyCode</key>
+							<integer>4</integer>
+							<key>MacroTriggerType</key>
+							<string>HotKey</string>
+							<key>Modifiers</key>
+							<integer>6912</integer>
+						</dict>
+					</array>
+					<key>UID</key>
+					<string>94F04021-A3DB-42DD-99B0-7C7F8E4D48F1</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -3010,11 +3292,11 @@
 					<array>
 						<dict>
 							<key>Action</key>
-							<string>MoveAndResize</string>
+							<string>MoveWindowTo</string>
 							<key>HeightExpression</key>
 							<string>SCREENVISIBLE(Front,Height)*50%</string>
 							<key>HorizontalExpression</key>
-							<string>SCREENVISIBLE(Front,MidX) - 10</string>
+							<string>SCREENVISIBLE(Front,Right) - (WINDOW(0, Width) + 10)</string>
 							<key>MacroActionType</key>
 							<string>ManipulateWindow</string>
 							<key>Targeting</key>
@@ -3034,7 +3316,7 @@
 					<key>CreationDate</key>
 					<real>647198087.08533895</real>
 					<key>ModificationDate</key>
-					<real>715786525.84899199</real>
+					<real>733859697.40946305</real>
 					<key>Name</key>
 					<string>top right</string>
 					<key>Triggers</key>
@@ -3077,7 +3359,7 @@
 							<key>HeightExpression</key>
 							<string>SCREENVISIBLE(Main,Height)*50% - 20</string>
 							<key>HorizontalExpression</key>
-							<string>SCREEN(Front,Width) - WINDOW(0, Width) - 10</string>
+							<string>SCREENVISIBLE(Front,Right) - (WINDOW(0, Width) + 10)</string>
 							<key>MacroActionType</key>
 							<string>ManipulateWindow</string>
 							<key>Targeting</key>
@@ -3097,7 +3379,7 @@
 					<key>CreationDate</key>
 					<real>647196558.74551105</real>
 					<key>ModificationDate</key>
-					<real>717613959.56141198</real>
+					<real>733859668.06400001</real>
 					<key>Name</key>
 					<string>bottom right</string>
 					<key>Triggers</key>
@@ -3115,6 +3397,69 @@
 					</array>
 					<key>UID</key>
 					<string>4DFE9070-9D50-4E2E-9EC1-CB03B4A408C1</string>
+				</dict>
+			</array>
+			<key>Name</key>
+			<string>layout</string>
+			<key>ToggleMacroUID</key>
+			<string>D01BB167-D813-461E-860E-3882ABD66C56</string>
+			<key>UID</key>
+			<string>F89497C1-9CE1-4CA6-A95B-41631780140A</string>
+		</dict>
+		<dict>
+			<key>Activate</key>
+			<string>Normal</string>
+			<key>CreationDate</key>
+			<real>647130933.469998</real>
+			<key>Macros</key>
+			<array>
+				<dict>
+					<key>Actions</key>
+					<array>
+						<dict>
+							<key>Action</key>
+							<string>MoveAndResize</string>
+							<key>HeightExpression</key>
+							<string>SCREENVISIBLE(Front,Height) - 20</string>
+							<key>HorizontalExpression</key>
+							<string>SCREENVISIBLE(Front,MidX) - 176</string>
+							<key>MacroActionType</key>
+							<string>ManipulateWindow</string>
+							<key>Targeting</key>
+							<string>FrontWindow</string>
+							<key>TargetingType</key>
+							<string>Front</string>
+							<key>VerticalExpression</key>
+							<string>SCREENVISIBLE(Front,Top) + 10</string>
+							<key>WidthExpression</key>
+							<string>(SCREENVISIBLE(Front,Width)*50%) - 200</string>
+							<key>WindowIndexExpression</key>
+							<string>2</string>
+							<key>WindowName</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>CreationDate</key>
+					<real>737386049.50097704</real>
+					<key>ModificationDate</key>
+					<real>737386711.00779104</real>
+					<key>Name</key>
+					<string>half screen right with space for notifications</string>
+					<key>Triggers</key>
+					<array>
+						<dict>
+							<key>FireType</key>
+							<string>Pressed</string>
+							<key>KeyCode</key>
+							<integer>37</integer>
+							<key>MacroTriggerType</key>
+							<string>HotKey</string>
+							<key>Modifiers</key>
+							<integer>6912</integer>
+						</dict>
+					</array>
+					<key>UID</key>
+					<string>0D9A469E-2353-4830-AF3C-101B4451F6D4</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -3366,6 +3711,132 @@
 			<key>Activate</key>
 			<string>Normal</string>
 			<key>CreationDate</key>
+			<real>647130933.469998</real>
+			<key>Macros</key>
+			<array>
+				<dict>
+					<key>Actions</key>
+					<array>
+						<dict>
+							<key>Action</key>
+							<string>MoveAndResize</string>
+							<key>HeightExpression</key>
+							<string>SCREENVISIBLE(Front,Height)*70%</string>
+							<key>HorizontalExpression</key>
+							<string>SCREENVISIBLE(Front,Left)+10</string>
+							<key>MacroActionType</key>
+							<string>ManipulateWindow</string>
+							<key>Targeting</key>
+							<string>FrontWindow</string>
+							<key>TargetingType</key>
+							<string>Front</string>
+							<key>VerticalExpression</key>
+							<string>SCREENVISIBLE(Front,Top)+10</string>
+							<key>WidthExpression</key>
+							<string>SCREENVISIBLE(Front,Width) - 385</string>
+							<key>WindowIndexExpression</key>
+							<string>2</string>
+							<key>WindowName</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>CreationDate</key>
+					<real>735744843.25198805</real>
+					<key>ModificationDate</key>
+					<real>735744900.51786101</real>
+					<key>Name</key>
+					<string>upper half with space for notifications</string>
+					<key>Triggers</key>
+					<array>
+						<dict>
+							<key>FireType</key>
+							<string>Pressed</string>
+							<key>KeyCode</key>
+							<integer>32</integer>
+							<key>MacroTriggerType</key>
+							<string>HotKey</string>
+							<key>Modifiers</key>
+							<integer>4352</integer>
+						</dict>
+					</array>
+					<key>UID</key>
+					<string>5038AAAE-B51B-42AE-A513-CF28FDE82FD6</string>
+				</dict>
+			</array>
+			<key>Name</key>
+			<string>layout</string>
+			<key>ToggleMacroUID</key>
+			<string>D01BB167-D813-461E-860E-3882ABD66C56</string>
+			<key>UID</key>
+			<string>F89497C1-9CE1-4CA6-A95B-41631780140A</string>
+		</dict>
+		<dict>
+			<key>Activate</key>
+			<string>Normal</string>
+			<key>CreationDate</key>
+			<real>647130933.469998</real>
+			<key>Macros</key>
+			<array>
+				<dict>
+					<key>Actions</key>
+					<array>
+						<dict>
+							<key>Action</key>
+							<string>MoveAndResize</string>
+							<key>HeightExpression</key>
+							<string>SCREENVISIBLE(Front,Height) - 20</string>
+							<key>HorizontalExpression</key>
+							<string>SCREENVISIBLE(Front,Left) + 10</string>
+							<key>MacroActionType</key>
+							<string>ManipulateWindow</string>
+							<key>Targeting</key>
+							<string>FrontWindow</string>
+							<key>TargetingType</key>
+							<string>Front</string>
+							<key>VerticalExpression</key>
+							<string>SCREENVISIBLE(Front,Top) + 10</string>
+							<key>WidthExpression</key>
+							<string>SCREENVISIBLE(Front,Width) - 385</string>
+							<key>WindowIndexExpression</key>
+							<string>2</string>
+							<key>WindowName</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>CreationDate</key>
+					<real>735742323.60024703</real>
+					<key>ModificationDate</key>
+					<real>735742423.68193102</real>
+					<key>Name</key>
+					<string>full screen with space for notifications</string>
+					<key>Triggers</key>
+					<array>
+						<dict>
+							<key>FireType</key>
+							<string>Pressed</string>
+							<key>KeyCode</key>
+							<integer>32</integer>
+							<key>MacroTriggerType</key>
+							<string>HotKey</string>
+							<key>Modifiers</key>
+							<integer>4864</integer>
+						</dict>
+					</array>
+					<key>UID</key>
+					<string>FE0E38C0-6E91-48DA-B15F-4421629961EC</string>
+				</dict>
+			</array>
+			<key>Name</key>
+			<string>layout</string>
+			<key>ToggleMacroUID</key>
+			<string>D01BB167-D813-461E-860E-3882ABD66C56</string>
+			<key>UID</key>
+			<string>F89497C1-9CE1-4CA6-A95B-41631780140A</string>
+		</dict>
+		<dict>
+			<key>Activate</key>
+			<string>Normal</string>
+			<key>CreationDate</key>
 			<real>696803411.19891405</real>
 			<key>Macros</key>
 			<array>
@@ -3597,6 +4068,6 @@
 		</dict>
 	</array>
 	<key>UID</key>
-	<string>27F1A07F-0B76-4B3A-B7BF-55513568D8E2</string>
+	<string>8B5F0E1B-5EFA-4546-B149-4E04843AF771</string>
 </dict>
 </plist>
