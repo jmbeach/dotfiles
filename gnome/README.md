@@ -33,7 +33,7 @@ Go to `/org/gnome/desktop/wm/keybindings/`
 - Set "switch-to-workspace1" to `['<Super>1']`
 - Set "switch-to-workspace2" to `['<Super>2']`
 - ...
-- Set "switch-to-workspace10" to `['<Super>10']`
+- Set "switch-to-workspace10" to `['<Super>0']`
 - Set "minimize" to `[]`
 - Set "switch-applications" to `[]`
 - Set "show-desktop" to `[]`
