@@ -1,5 +1,4 @@
 Plug 'tpope/vim-surround'
-set relativenumber
 set ignorecase
 " Use spacebar as leader key
 let mapleader = " "
@@ -11,11 +10,13 @@ nnoremap <c-l> <c-w>l
 " Make control + u and control + d stay centered
 nnoremap <C-u> <C-u>zz
 nnoremap <C-d> <C-d>zz
-nnoremap <c-j> 10jzz
-nnoremap <c-k> 10kzz
+nnoremap <c-j> <c-w>j
+nnoremap <c-k> <c-w>k
 
 nnoremap <c-y> :action EditorMoveUpAndScroll<CR>
 nnoremap <c-e> :action EditorMoveDownAndScroll<CR>
+" Make forward slash open regular search
+nmap / :action Find<CR>
 
 " enable which key
 set which-key
@@ -78,6 +79,15 @@ let g:WhichKeyDesc_ProblemsWindow = "<leader>wp Show Problems Window"
 nmap <Leader>wp :action ActivateProblemsViewToolWindow<CR>
 let g:WhichKeyDesc_TerminalWindow = "<leader>wt Show Terminal Window"
 nmap <Leader>wt :action ActivateTerminalToolWindow<CR>
+let g:WhichKeyDesc_MavenWindow = "<leader>wm Show Maven Window"
+nmap <Leader>wm :action ActivateMavenToolWindow<CR>
+let g:WhichKeyDesc_CopilotWindow = "<leader>wc Show Copilot Window"
+nmap <Leader>wc :action ActivateGitHubCopilotChatToolWindow<CR>
+vmap <Leader>wc :action ActivateGitHubCopilotChatToolWindow<CR>
+let g:WhichKeyDesc_TerminalDown = "<c-b>j Switch to Terminal"
+nmap <c-b>j :action ActivateTerminalToolWindow<CR>
+let g:WhichKeyDesc_TermianlUp = "<c-b>k Switch to Editor"
+nmap <c-b>k :action Terminal.SwitchFocusToEditor<CR>
 
 " Code keys
 let g:WhichKeyDesc_Code = "<leader>c +[C]ode"
@@ -89,8 +99,18 @@ let g:WhichKeyDesc_CodeGenerate = "<leader>cg Generate"
 nmap <Leader>cg :action Generate<CR>
 let g:WhichKeyDesc_CodeGoToImplementation = "<leader>ci [C]ode [I]mplementation"
 nmap <Leader>ci :action GotoImplementation<CR>
-let g:WhichKeyDesc_CodeCompile = "<leader>cb [C]ode [C]ompile"
-nmap <Leader>cc :action CompileProject<CR>
+
+let g:WhichKeyDesc_Run = "<leader>r +[R]un"
+let g:WhichKeyDesc_RunRun = "<leader>rr [R]un [R]un"
+nmap <Leader>rr :action Run<CR>
+let g:WhichKeyDesc_RunCompile = "<leader>rc [R]un [C]ompile"
+nmap <Leader>rc :action CompileProject<CR>
+let g:WhichKeyDesc_RunClass = "<leader>rC [R]un [C]lass"
+nmap <Leader>rC :action RunClass<CR>
+
+let g:WhichKeyDesc_Maven = "<leader>m +[M]aven"
+let g:WhichKeyDesc_MavenReloadAll = "<leader>mr [M]aven [R]eload All"
+nmap <Leader>mr :action Maven.ReimportProject<CR>
 
 " Toggle keys
 let g:WhichKeyDesc_Toggle = "<leader>t +[T]oggle"
@@ -116,7 +136,7 @@ let g:WhichKeyDesc_GSurroundAdd = "gsa Add surrounding"
 vmap gsa S
 
 let g:WhichKeyDesc_Buffer = "<leader>b +[B]uffer"
-let g:WhichKeyDesc_Buffer = "<leader>bd [B]uffer [D]elete"
+let g:WhichKeyDesc_BufferDelete = "<leader>bd [B]uffer [D]elete"
 nmap <Leader>bd :bd<cr>
 
 " General
@@ -130,6 +150,14 @@ let g:WhichKeyDesc_GoToNextChange = "]c Go to next [C]hange"
 let g:WhichKeyDesc_GoToPrevChange = "[c Go to prev [C]hange"
 nmap ]c :action VcsShowNextChangeMarker<CR>
 nmap [c :action VcsShowPrevChangeMarker<CR>
+let g:WhichKeyDesc_GoToNextFindMatch = "]f Go to next [F]ind"
+let g:WhichKeyDesc_GoToPrevFindMatch = "[f Go to next [F]ind"
+nmap ]f :action FindNext<CR>
+vmap ]f :action FindNext<CR>
+nmap [f :action FindPrevious<CR>
+let g:WhichKeyDesc_GoToNextOccurrence = "]o Go to prev [O]ccurrence"
+nmap ]o :action SelectNextOccurrence<CR>
+vmap ]o :action SelectNextOccurrence<CR>
 
 let g:WhichKeyDesc_GeneralComment = "gc +[C]omment"
 let g:WhichKeyDesc_GeneralComment = "gcc Comment"
