@@ -72,7 +72,7 @@
 							AC5xAQAAKwAAAAEAAABp
 							AQAAe1xydGYxXGFuc2lc
 							YW5zaWNwZzEyNTJcY29j
-							b2FydGYyNzYxClxjb2Nv
+							b2FydGYyODIyClxjb2Nv
 							YXRleHRzY2FsaW5nMFxj
 							b2NvYXBsYXRmb3JtMHtc
 							Zm9udHRibFxmMFxmbmls
@@ -96,7 +96,7 @@
 							JVRyaWdnZXJDbGlwYm9h
 							cmQlfQEAAAAjAAAAAQAA
 							AAcAAABUWFQucnRmEAAA
-							AFJlyma2AQAAAAAAAAAA
+							AFhZNmi2AQAAAAAAAAAA
 							AAA=
 							</data>
 							<key>Text</key>
@@ -685,6 +685,35 @@
 			<string>CFB2252C-A849-4288-931E-807A0DF52016</string>
 			<key>UID</key>
 			<string>52710DBC-9117-4AAC-B910-59C016C4BDEA</string>
+		</dict>
+		<dict>
+			<key>Activate</key>
+			<string>Normal</string>
+			<key>CreationDate</key>
+			<real>647130933.469998</real>
+			<key>Macros</key>
+			<array>
+				<dict>
+					<key>Actions</key>
+					<array/>
+					<key>CreationDate</key>
+					<real>763489984.32096601</real>
+					<key>ModificationDate</key>
+					<real>763490026.11009204</real>
+					<key>Name</key>
+					<string>swap cmd and alt</string>
+					<key>Triggers</key>
+					<array/>
+					<key>UID</key>
+					<string>9C0D7771-D4C6-4EC0-93B8-844C7040BD7E</string>
+				</dict>
+			</array>
+			<key>Name</key>
+			<string>layout</string>
+			<key>ToggleMacroUID</key>
+			<string>D01BB167-D813-461E-860E-3882ABD66C56</string>
+			<key>UID</key>
+			<string>F89497C1-9CE1-4CA6-A95B-41631780140A</string>
 		</dict>
 		<dict>
 			<key>Activate</key>
@@ -1420,435 +1449,6 @@
 			<key>Activate</key>
 			<string>Normal</string>
 			<key>CreationDate</key>
-			<real>649601193.14867103</real>
-			<key>Macros</key>
-			<array>
-				<dict>
-					<key>Actions</key>
-					<array>
-						<dict>
-							<key>Action</key>
-							<string>MoveAndClick</string>
-							<key>Button</key>
-							<integer>0</integer>
-							<key>ClickCount</key>
-							<integer>1</integer>
-							<key>DisplayMatches</key>
-							<false/>
-							<key>DragHorizontalPosition</key>
-							<string>0</string>
-							<key>DragVerticalPosition</key>
-							<string>0</string>
-							<key>Fuzz</key>
-							<integer>11</integer>
-							<key>HorizontalPositionExpression</key>
-							<string>20</string>
-							<key>Image</key>
-							<data>
-							TU0AKgAABR6ADQbD9/gC
-							DQeEQmFQuGQ2HQ+IRGJR
-							OKRWLReMRmNRuOR2PR+Q
-							SGRSOSSWTSeUSmVSuWS2
-							XQmBQSXzOaTWbTecTmdT
-							ueT2fT+gUGhS2YwWh0ek
-							UmlUumU2nU+oVGpTii1O
-							rVesVmtVuuV2vV+c1WwW
-							OyWWzWe0Wm1WuNWK2W+4
-							XG5XO6XW7Ry3Xe9Xu+X2
-							/X/ATy84HCYXDYfEYm+Y
-							PFY3HY/IZHJT/GZPLZfM
-							ZnNZuFZXOZ/QaHRaO2Z7
-							SafUanVaugabWa/YbHZb
-							OMa7abfcbndaTbbvfb/g
-							cHCb3hcXjcfkWTicnmc3
-							nc+h8vodPqdXrSbpdftd
-							vud2GdnveHxePmeDyef0
-							enZ+b1e33e/OeyeAsQgg
-							ABQgg4AAoQAb4P/AEAp0
-							+SbgsIIHgACYggbAUGwd
-							B6XwImwPjECz9v6AB4GY
-							ewAHycx9AAe8PwhEkSxM
-							icJJqFJBA4hJwEwdUTxl
-							GcaIXFKaRXFqERfGMax9
-							H8SRumccxdGEgSPJD/yE
-							l8iR3I0kyhKLxyWl0moP
-							HkpSzLTryolsrINLEtzF
-							Mbky6lkvgBMMyTXNjdzM
-							lc0TVNs5zo16ADQbD9/g
-							CDQeEQmFQuGQ2HQ+DClB
-							ByEuBMOqIRmNRuOR2PR+
-							QSGRSOSSWTSeUSmVSuWS
-							2XS+YTGZTOaTWXQKCTaT
-							RKKQiLRidUGhUOiUWjUe
-							kUmlUumU2nU+QTiC1CGT
-							yKxeqVmtVuuV2vV+wWGx
-							WOdVKwVafViyWu2W23W+
-							4XG5XOt2av2iDz+6Xu+X
-							2/X/AYHBUy7V68Qa9YPF
-							YvGY3HY/IWTC13DgDE5H
-							MZnNZvOZ3PQvJ1zK5fP6
-							XTafUanVU3Q1vR2rV7HZ
-							bPabXbQzW1rX0Db73fb/
-							gcG/bms7vhcfkcnlcuk8
-							SqcbmdHpdPqdWN86odDr
-							dvud3vb3sU/td/yeXzef
-							HeGneP0e33e/4WL1U32f
-							H7ff8fmg/OmfX9P/AEAw
-							Ejz+KW/0BwRBMFP/AqlQ
-							PBcIQjCTvQapMHwnDEMw
-							04MKqRC8NxBEMRNNDqjw
-							/EcURTFTFRKo0TxXGEYx
-							ktsWqLF8ZxxHMdKfGqiR
-							vHcgSDISax6ocfyHJEky
-							UkkiqFI8lyhKMpNAgaps
-							Miart5Kcty5LqESaoMny
-							9McyRhMCdTFMs1TXDUzp
-							tNM2TjOUETcms4TnPE8v
-							tOqaTvPU/0A8k+JnP1A0
-							NQ7pUGmVC0RRtHOBRSY0
-							ZR9KUq2NIphSdLU3TjO0
-							wl9NU7UVRsbT6XVDUlU1
-							UvtTJbVFV1hWMaSqs8sL
-							TLVZVzXTBVallX13YFgt
-							ZWi71svLYWFZNlLXXqV1
-							/ZdoWimNmpVZ9pWvbCT2
-							olNrWzb1vo7baUW7cFy3
-							NKic2Kntj1xc93Xek1xJ
-							Pcl4XrbF5J3YzEWRe1+3
-							8iF8JLel/4JXeApJgeC4
-							VWGDpHhOF4hUeGpFh+I4
-							tS2JpDiuL45RuMpBjeO5
-							FQGPo/kOR5ROeSo9k+U5
-							dNWVo7luX5pLuYo5mea5
-							1KObo3nOd6BJGeo1n+g6
-							NHehozouj6ZGWkohpem6
-							lFOnofqOp6xEGqocyp0l
-							keAAHucx9azss8a2hoPj
-							ECwAAUEADAAfBzH2AB4m
-							Yeuw7Hs29zJtCGAWEIEA
-							ADwwgpvnD7PYixAsIIHo
-							SCYggbxHJy5v3KcvQ3Lc
-							xzc881znPzZz3QdHMfRd
-							J08p9N1HVyV1XWdfIPXd
-							h2ccdl2nbxX23cd3EXdd
-							538M994Hhwh4XiePAfje
-							R5b9ICAAEwEAAAMAAAAB
-							AOQAAAEBAAMAAAABAHQA
-							AAECAAMAAAAEAAAGGAED
-							AAMAAAABAAUAAAEGAAMA
-							AAABAAIAAAEKAAMAAAAB
-							AAEAAAERAAQAAAABAAAA
-							CAESAAMAAAABAAEAAAEV
-							AAMAAAABAAQAAAEWAAMA
-							AAABAHQAAAEXAAQAAAAB
-							AAAFFgEaAAUAAAABAAAG
-							CAEbAAUAAAABAAAGEAEc
-							AAMAAAABAAEAAAEoAAMA
-							AAABAAIAAAE9AAMAAAAB
-							AAIAAAFSAAMAAAABAAIA
-							AAFTAAMAAAAEAAAGIIdz
-							AAcAAA1IAAAGKAAAAAAA
-							AACQAAAAAQAAAJAAAAAB
-							AAgACAAIAAgAAQABAAEA
-							AQAADUhhcHBsAhAAAG1u
-							dHJSR0IgWFlaIAflAAgA
-							AQALABcALWFjc3BBUFBM
-							AAAAAEFQUEwAAAAAAAAA
-							AAAAAAAAAAAAAAD21gAB
-							AAAAANMtYXBwbAAAAAAA
-							AAAAAAAAAAAAAAAAAAAA
-							AAAAAAAAAAAAAAAAAAAA
-							AAAAAAAAAAAAAAAAEmRl
-							c2MAAAFcAAAAYmRzY20A
-							AAHAAAAB6mNwcnQAAAOs
-							AAAAI3d0cHQAAAPQAAAA
-							FHJYWVoAAAPkAAAAFGdY
-							WVoAAAP4AAAAFGJYWVoA
-							AAQMAAAAFHJUUkMAAAQg
-							AAAIDGFhcmcAAAwsAAAA
-							IHZjZ3QAAAxMAAAAMG5k
-							aW4AAAx8AAAAPmNoYWQA
-							AAy8AAAALG1tb2QAAAzo
-							AAAAKHZjZ3AAAA0QAAAA
-							OGJUUkMAAAQgAAAIDGdU
-							UkMAAAQgAAAIDGFhYmcA
-							AAwsAAAAIGFhZ2cAAAws
-							AAAAIGRlc2MAAAAAAAAA
-							CERpc3BsYXkAAAAAAAAA
-							AAAAAAAAAAAAAAAAAAAA
-							AAAAAAAAAAAAAAAAAAAA
-							AAAAAAAAAAAAAAAAAAAA
-							AAAAAAAAAAAAAAAAAAAA
-							AAAAAAAAAAAAAAAAAABt
-							bHVjAAAAAAAAACYAAAAM
-							aHJIUgAAABIAAAHYa29L
-							UgAAABIAAAHYbmJOTwAA
-							ABIAAAHYaWQAAAAAABIA
-							AAHYaHVIVQAAABIAAAHY
-							Y3NDWgAAABIAAAHYZGFE
-							SwAAABIAAAHYbmxOTAAA
-							ABIAAAHYZmlGSQAAABIA
-							AAHYaXRJVAAAABIAAAHY
-							ZXNFUwAAABIAAAHYcm9S
-							TwAAABIAAAHYZnJDQQAA
-							ABIAAAHYYXIAAAAAABIA
-							AAHYdWtVQQAAABIAAAHY
-							aGVJTAAAABIAAAHYemhU
-							VwAAABIAAAHYdmlWTgAA
-							ABIAAAHYc2tTSwAAABIA
-							AAHYemhDTgAAABIAAAHY
-							cnVSVQAAABIAAAHYZW5H
-							QgAAABIAAAHYZnJGUgAA
-							ABIAAAHYbXMAAAAAABIA
-							AAHYaGlJTgAAABIAAAHY
-							dGhUSAAAABIAAAHYY2FF
-							UwAAABIAAAHYZW5BVQAA
-							ABIAAAHYZXNYTAAAABIA
-							AAHYZGVERQAAABIAAAHY
-							ZW5VUwAAABIAAAHYcHRC
-							UgAAABIAAAHYcGxQTAAA
-							ABIAAAHYZWxHUgAAABIA
-							AAHYc3ZTRQAAABIAAAHY
-							dHJUUgAAABIAAAHYcHRQ
-							VAAAABIAAAHYamFKUAAA
-							ABIAAAHYAEwARwAgAEgA
-							RABSACAANABLAAB0ZXh0
-							AAAAAENvcHlyaWdodCBB
-							cHBsZSBJbmMuLCAyMDIx
-							AABYWVogAAAAAAAA81IA
-							AQAAAAEWvlhZWiAAAAAA
-							AABvpAAAOPYAAAORWFla
-							IAAAAAAAAGKUAAC3hgAA
-							GNpYWVogAAAAAAAAJJ4A
-							AA+EAAC2wmN1cnYAAAAA
-							AAAEAAAAAAUACgAPABQA
-							GQAeACMAKAAtADIANgA7
-							AEAARQBKAE8AVABZAF4A
-							YwBoAG0AcgB3AHwAgQCG
-							AIsAkACVAJoAnwCjAKgA
-							rQCyALcAvADBAMYAywDQ
-							ANUA2wDgAOUA6wDwAPYA
-							+wEBAQcBDQETARkBHwEl
-							ASsBMgE4AT4BRQFMAVIB
-							WQFgAWcBbgF1AXwBgwGL
-							AZIBmgGhAakBsQG5AcEB
-							yQHRAdkB4QHpAfIB+gID
-							AgwCFAIdAiYCLwI4AkEC
-							SwJUAl0CZwJxAnoChAKO
-							ApgCogKsArYCwQLLAtUC
-							4ALrAvUDAAMLAxYDIQMt
-							AzgDQwNPA1oDZgNyA34D
-							igOWA6IDrgO6A8cD0wPg
-							A+wD+QQGBBMEIAQtBDsE
-							SARVBGMEcQR+BIwEmgSo
-							BLYExATTBOEE8AT+BQ0F
-							HAUrBToFSQVYBWcFdwWG
-							BZYFpgW1BcUF1QXlBfYG
-							BgYWBicGNwZIBlkGagZ7
-							BowGnQavBsAG0QbjBvUH
-							BwcZBysHPQdPB2EHdAeG
-							B5kHrAe/B9IH5Qf4CAsI
-							HwgyCEYIWghuCIIIlgiq
-							CL4I0gjnCPsJEAklCToJ
-							TwlkCXkJjwmkCboJzwnl
-							CfsKEQonCj0KVApqCoEK
-							mAquCsUK3ArzCwsLIgs5
-							C1ELaQuAC5gLsAvIC+EL
-							+QwSDCoMQwxcDHUMjgyn
-							DMAM2QzzDQ0NJg1ADVoN
-							dA2ODakNww3eDfgOEw4u
-							DkkOZA5/DpsOtg7SDu4P
-							CQ8lD0EPXg96D5YPsw/P
-							D+wQCRAmEEMQYRB+EJsQ
-							uRDXEPURExExEU8RbRGM
-							EaoRyRHoEgcSJhJFEmQS
-							hBKjEsMS4xMDEyMTQxNj
-							E4MTpBPFE+UUBhQnFEkU
-							ahSLFK0UzhTwFRIVNBVW
-							FXgVmxW9FeAWAxYmFkkW
-							bBaPFrIW1hb6Fx0XQRdl
-							F4kXrhfSF/cYGxhAGGUY
-							ihivGNUY+hkgGUUZaxmR
-							GbcZ3RoEGioaURp3Gp4a
-							xRrsGxQbOxtjG4obshva
-							HAIcKhxSHHscoxzMHPUd
-							Hh1HHXAdmR3DHeweFh5A
-							HmoelB6+HukfEx8+H2kf
-							lB+/H+ogFSBBIGwgmCDE
-							IPAhHCFIIXUhoSHOIfsi
-							JyJVIoIiryLdIwojOCNm
-							I5QjwiPwJB8kTSR8JKsk
-							2iUJJTglaCWXJccl9yYn
-							Jlcmhya3JugnGCdJJ3on
-							qyfcKA0oPyhxKKIo1CkG
-							KTgpaymdKdAqAio1Kmgq
-							myrPKwIrNitpK50r0SwF
-							LDksbiyiLNctDC1BLXYt
-							qy3hLhYuTC6CLrcu7i8k
-							L1ovkS/HL/4wNTBsMKQw
-							2zESMUoxgjG6MfIyKjJj
-							Mpsy1DMNM0YzfzO4M/E0
-							KzRlNJ402DUTNU01hzXC
-							Nf02NzZyNq426TckN2A3
-							nDfXOBQ4UDiMOMg5BTlC
-							OX85vDn5OjY6dDqyOu87
-							LTtrO6o76DwnPGU8pDzj
-							PSI9YT2hPeA+ID5gPqA+
-							4D8hP2E/oj/iQCNAZECm
-							QOdBKUFqQaxB7kIwQnJC
-							tUL3QzpDfUPARANER0SK
-							RM5FEkVVRZpF3kYiRmdG
-							q0bwRzVHe0fASAVIS0iR
-							SNdJHUljSalJ8Eo3Sn1K
-							xEsMS1NLmkviTCpMcky6
-							TQJNSk2TTdxOJU5uTrdP
-							AE9JT5NP3VAnUHFQu1EG
-							UVBRm1HmUjFSfFLHUxNT
-							X1OqU/ZUQlSPVNtVKFV1
-							VcJWD1ZcVqlW91dEV5JX
-							4FgvWH1Yy1kaWWlZuFoH
-							WlZaplr1W0VblVvlXDVc
-							hlzWXSddeF3JXhpebF69
-							Xw9fYV+zYAVgV2CqYPxh
-							T2GiYfViSWKcYvBjQ2OX
-							Y+tkQGSUZOllPWWSZedm
-							PWaSZuhnPWeTZ+loP2iW
-							aOxpQ2maafFqSGqfavdr
-							T2una/9sV2yvbQhtYG25
-							bhJua27Ebx5veG/RcCtw
-							hnDgcTpxlXHwcktypnMB
-							c11zuHQUdHB0zHUodYV1
-							4XY+dpt2+HdWd7N4EXhu
-							eMx5KnmJeed6RnqlewR7
-							Y3vCfCF8gXzhfUF9oX4B
-							fmJ+wn8jf4R/5YBHgKiB
-							CoFrgc2CMIKSgvSDV4O6
-							hB2EgITjhUeFq4YOhnKG
-							14c7h5+IBIhpiM6JM4mZ
-							if6KZIrKizCLlov8jGOM
-							yo0xjZiN/45mjs6PNo+e
-							kAaQbpDWkT+RqJIRknqS
-							45NNk7aUIJSKlPSVX5XJ
-							ljSWn5cKl3WX4JhMmLiZ
-							JJmQmfyaaJrVm0Kbr5wc
-							nImc951kndKeQJ6unx2f
-							i5/6oGmg2KFHobaiJqKW
-							owajdqPmpFakx6U4pamm
-							GqaLpv2nbqfgqFKoxKk3
-							qamqHKqPqwKrdavprFys
-							0K1ErbiuLa6hrxavi7AA
-							sHWw6rFgsdayS7LCsziz
-							rrQltJy1E7WKtgG2ebbw
-							t2i34LhZuNG5SrnCuju6
-							tbsuu6e8IbybvRW9j74K
-							voS+/796v/XAcMDswWfB
-							48JfwtvDWMPUxFHEzsVL
-							xcjGRsbDx0HHv8g9yLzJ
-							Osm5yjjKt8s2y7bMNcy1
-							zTXNtc42zrbPN8+40DnQ
-							utE80b7SP9LB00TTxtRJ
-							1MvVTtXR1lXW2Ndc1+DY
-							ZNjo2WzZ8dp22vvbgNwF
-							3IrdEN2W3hzeot8p36/g
-							NuC94UThzOJT4tvjY+Pr
-							5HPk/OWE5g3mlucf56no
-							Mui86Ubp0Opb6uXrcOv7
-							7IbtEe2c7ijutO9A78zw
-							WPDl8XLx//KM8xnzp/Q0
-							9ML1UPXe9m32+/eK+Bn4
-							qPk4+cf6V/rn+3f8B/yY
-							/Sn9uv5L/tz/bf//cGFy
-							YQAAAAAAAwAAAAJmZgAA
-							8qcAAA1ZAAAT0AAAClt2
-							Y2d0AAAAAAAAAAEAAQAA
-							AAAAAAABAAAAAQAAAAAA
-							AAABAAAAAQAAAAAAAAAB
-							AABuZGluAAAAAAAAADYA
-							AKPXAABUewAATM0AAJma
-							AAAmZgAAD1wAAFAPAABU
-							OwACMzMAAjMzAAIzMwAA
-							AAAAAAAAc2YzMgAAAAAA
-							AQw/AAAF3f//8ygAAAeR
-							AAD9kf//+6P///2jAAAD
-							2wAAwHltbW9kAAAAAAAA
-							Hm0AAHcHAACN8dqXFQAA
-							AAAAAAAAAAAAAAAAAAAA
-							dmNncAAAAAAAAwAAAAJm
-							ZgADAAAAAmZmAAMAAAAC
-							ZmYAAAACMzM0AAAAAAIz
-							MzQAAAAAAjMzNAA=
-							</data>
-							<key>MacroActionType</key>
-							<string>MouseMoveAndClick</string>
-							<key>Modifiers</key>
-							<integer>0</integer>
-							<key>MouseDrag</key>
-							<string>None</string>
-							<key>Relative</key>
-							<string>Image</string>
-							<key>RelativeCorner</key>
-							<string>TopLeft</string>
-							<key>RestoreMouseLocation</key>
-							<false/>
-							<key>ScreenArea</key>
-							<dict>
-								<key>ScreenAreaType</key>
-								<string>ScreenAll</string>
-							</dict>
-							<key>VerticalPositionExpression</key>
-							<string>20</string>
-						</dict>
-					</array>
-					<key>CreationDate</key>
-					<real>649601208.39291406</real>
-					<key>ModificationDate</key>
-					<real>649601345.95529902</real>
-					<key>Name</key>
-					<string>commit</string>
-					<key>Triggers</key>
-					<array>
-						<dict>
-							<key>FireType</key>
-							<string>Pressed</string>
-							<key>KeyCode</key>
-							<integer>36</integer>
-							<key>MacroTriggerType</key>
-							<string>HotKey</string>
-							<key>Modifiers</key>
-							<integer>4096</integer>
-						</dict>
-					</array>
-					<key>UID</key>
-					<string>7609BA4B-B643-4B70-AB8F-6B78F45DA133</string>
-				</dict>
-			</array>
-			<key>Name</key>
-			<string>Gitkraken</string>
-			<key>Targeting</key>
-			<dict>
-				<key>Targeting</key>
-				<string>Included</string>
-				<key>TargetingApps</key>
-				<array>
-					<dict>
-						<key>BundleIdentifier</key>
-						<string>com.axosoft.gitkraken</string>
-						<key>Name</key>
-						<string>GitKraken</string>
-						<key>NewFile</key>
-						<string>/Applications/GitKraken.app</string>
-					</dict>
-				</array>
-			</dict>
-			<key>ToggleMacroUID</key>
-			<string>218E7257-54F3-4F77-97FA-916B8B854033</string>
-			<key>UID</key>
-			<string>E12B10C9-C1A3-4F0F-A26D-9035ADD9482F</string>
-		</dict>
-		<dict>
-			<key>Activate</key>
-			<string>Normal</string>
-			<key>CreationDate</key>
 			<real>696803411.19891405</real>
 			<key>Macros</key>
 			<array>
@@ -2186,7 +1786,7 @@
 									<key>Action</key>
 									<string>MoveAndResize</string>
 									<key>HeightExpression</key>
-									<string>SCREEN(Front,Height)*30% - 10</string>
+									<string>SCREEN(Front,Height)*15% - 10</string>
 									<key>HorizontalExpression</key>
 									<string>SCREENVISIBLE(Front,Left) + 10</string>
 									<key>MacroActionType</key>
@@ -2196,7 +1796,7 @@
 									<key>TargetingType</key>
 									<string>Front</string>
 									<key>VerticalExpression</key>
-									<string>SCREEN(Front,Height)*70%</string>
+									<string>SCREEN(Front,Height)*85%</string>
 									<key>WidthExpression</key>
 									<string>SCREENVISIBLE(Front,Width) - 20</string>
 									<key>WindowIndexExpression</key>
@@ -2227,7 +1827,7 @@
 					<key>CreationDate</key>
 					<real>647131941.24338198</real>
 					<key>ModificationDate</key>
-					<real>715788801.92211604</real>
+					<real>762879010.23599195</real>
 					<key>Name</key>
 					<string>bottom</string>
 					<key>Triggers</key>
@@ -2294,7 +1894,7 @@
 									<key>Action</key>
 									<string>MoveAndResize</string>
 									<key>HeightExpression</key>
-									<string>SCREEN(Front,Height)*30% - 10</string>
+									<string>SCREEN(Front,Height)*15% - 10</string>
 									<key>HorizontalExpression</key>
 									<string>SCREENVISIBLE(Front,Left) + 10</string>
 									<key>MacroActionType</key>
@@ -2304,7 +1904,7 @@
 									<key>TargetingType</key>
 									<string>Front</string>
 									<key>VerticalExpression</key>
-									<string>SCREEN(Front,Height)*70%</string>
+									<string>SCREEN(Front,Height)*85%</string>
 									<key>WidthExpression</key>
 									<string>SCREENVISIBLE(Front,Width) - 385</string>
 									<key>WindowIndexExpression</key>
@@ -2335,7 +1935,7 @@
 					<key>CreationDate</key>
 					<real>735744937.98303497</real>
 					<key>ModificationDate</key>
-					<real>735744982.14415503</real>
+					<real>762879017.79624903</real>
 					<key>Name</key>
 					<string>bottom with space for notifications</string>
 					<key>Triggers</key>
@@ -3042,7 +2642,7 @@
 							<key>Action</key>
 							<string>MoveWindowTo</string>
 							<key>HeightExpression</key>
-							<string>SCREENVISIBLE(Main,Height)</string>
+							<string>SCREENVISIBLE(Main,Height)*50% - 20</string>
 							<key>HorizontalExpression</key>
 							<string>SCREENVISIBLE(Front,Left)+10</string>
 							<key>MacroActionType</key>
@@ -3052,9 +2652,9 @@
 							<key>TargetingType</key>
 							<string>Front</string>
 							<key>VerticalExpression</key>
-							<string>SCREENVISIBLE(Front,Top) + 10</string>
+							<string>SCREEN(Front,Height) - (WINDOW(0, Height) + 10)</string>
 							<key>WidthExpression</key>
-							<string>SCREENVISIBLE(Main,Width)</string>
+							<string>(SCREENVISIBLE(Main,Width)*50%) - 20</string>
 							<key>WindowIndexExpression</key>
 							<string>2</string>
 							<key>WindowName</key>
@@ -3062,11 +2662,11 @@
 						</dict>
 					</array>
 					<key>CreationDate</key>
-					<real>647198087.08533895</real>
+					<real>647196558.74551105</real>
 					<key>ModificationDate</key>
-					<real>733763219.77051795</real>
+					<real>759177558.44176102</real>
 					<key>Name</key>
-					<string>top left</string>
+					<string>bottom left</string>
 					<key>Triggers</key>
 					<array>
 						<dict>
@@ -3081,7 +2681,7 @@
 						</dict>
 					</array>
 					<key>UID</key>
-					<string>18A4A540-712C-4B57-974F-74971AE00424</string>
+					<string>395EF7A2-4721-486B-86A5-D80B2016869D</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -3105,7 +2705,7 @@
 							<key>Action</key>
 							<string>MoveWindowTo</string>
 							<key>HeightExpression</key>
-							<string>SCREENVISIBLE(Main,Height)*50% - 20</string>
+							<string>SCREENVISIBLE(Main,Height)</string>
 							<key>HorizontalExpression</key>
 							<string>SCREENVISIBLE(Front,Left)+10</string>
 							<key>MacroActionType</key>
@@ -3115,9 +2715,9 @@
 							<key>TargetingType</key>
 							<string>Front</string>
 							<key>VerticalExpression</key>
-							<string>SCREEN(Front,Height) - (WINDOW(0, Height) + 10)</string>
+							<string>SCREENVISIBLE(Front,Top) + 10</string>
 							<key>WidthExpression</key>
-							<string>(SCREENVISIBLE(Main,Width)*50%) - 20</string>
+							<string>SCREENVISIBLE(Main,Width)</string>
 							<key>WindowIndexExpression</key>
 							<string>2</string>
 							<key>WindowName</key>
@@ -3125,11 +2725,11 @@
 						</dict>
 					</array>
 					<key>CreationDate</key>
-					<real>647196558.74551105</real>
+					<real>647198087.08533895</real>
 					<key>ModificationDate</key>
-					<real>733860239.32633305</real>
+					<real>759177550.38777304</real>
 					<key>Name</key>
-					<string>bottom left</string>
+					<string>top left</string>
 					<key>Triggers</key>
 					<array>
 						<dict>
@@ -3144,7 +2744,7 @@
 						</dict>
 					</array>
 					<key>UID</key>
-					<string>395EF7A2-4721-486B-86A5-D80B2016869D</string>
+					<string>18A4A540-712C-4B57-974F-74971AE00424</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -3294,7 +2894,7 @@
 							<key>Action</key>
 							<string>MoveWindowTo</string>
 							<key>HeightExpression</key>
-							<string>SCREENVISIBLE(Front,Height)*50%</string>
+							<string>SCREENVISIBLE(Main,Height)*50% - 20</string>
 							<key>HorizontalExpression</key>
 							<string>SCREENVISIBLE(Front,Right) - (WINDOW(0, Width) + 10)</string>
 							<key>MacroActionType</key>
@@ -3304,9 +2904,9 @@
 							<key>TargetingType</key>
 							<string>Front</string>
 							<key>VerticalExpression</key>
-							<string>SCREENVISIBLE(Front,Top) + 10</string>
+							<string>SCREEN(Front,Height) - (WINDOW(0, Height) + 10)</string>
 							<key>WidthExpression</key>
-							<string>SCREENVISIBLE(Front,Width)*50%</string>
+							<string>(SCREENVISIBLE(Main,Width)*50%) - 20</string>
 							<key>WindowIndexExpression</key>
 							<string>2</string>
 							<key>WindowName</key>
@@ -3314,11 +2914,11 @@
 						</dict>
 					</array>
 					<key>CreationDate</key>
-					<real>647198087.08533895</real>
+					<real>647196558.74551105</real>
 					<key>ModificationDate</key>
-					<real>733859697.40946305</real>
+					<real>759177608.70678198</real>
 					<key>Name</key>
-					<string>top right</string>
+					<string>bottom right</string>
 					<key>Triggers</key>
 					<array>
 						<dict>
@@ -3333,7 +2933,7 @@
 						</dict>
 					</array>
 					<key>UID</key>
-					<string>0DBEE315-D577-4D95-91F5-61EE73A2806A</string>
+					<string>4DFE9070-9D50-4E2E-9EC1-CB03B4A408C1</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -3357,7 +2957,7 @@
 							<key>Action</key>
 							<string>MoveWindowTo</string>
 							<key>HeightExpression</key>
-							<string>SCREENVISIBLE(Main,Height)*50% - 20</string>
+							<string>SCREENVISIBLE(Front,Height)*50%</string>
 							<key>HorizontalExpression</key>
 							<string>SCREENVISIBLE(Front,Right) - (WINDOW(0, Width) + 10)</string>
 							<key>MacroActionType</key>
@@ -3367,9 +2967,9 @@
 							<key>TargetingType</key>
 							<string>Front</string>
 							<key>VerticalExpression</key>
-							<string>SCREEN(Front,Height) - (WINDOW(0, Height) + 10)</string>
+							<string>SCREENVISIBLE(Front,Top) + 10</string>
 							<key>WidthExpression</key>
-							<string>(SCREENVISIBLE(Main,Width)*50%) - 20</string>
+							<string>SCREENVISIBLE(Front,Width)*50%</string>
 							<key>WindowIndexExpression</key>
 							<string>2</string>
 							<key>WindowName</key>
@@ -3377,11 +2977,11 @@
 						</dict>
 					</array>
 					<key>CreationDate</key>
-					<real>647196558.74551105</real>
+					<real>647198087.08533895</real>
 					<key>ModificationDate</key>
-					<real>733859668.06400001</real>
+					<real>759177601.48311996</real>
 					<key>Name</key>
-					<string>bottom right</string>
+					<string>top right</string>
 					<key>Triggers</key>
 					<array>
 						<dict>
@@ -3396,7 +2996,7 @@
 						</dict>
 					</array>
 					<key>UID</key>
-					<string>4DFE9070-9D50-4E2E-9EC1-CB03B4A408C1</string>
+					<string>0DBEE315-D577-4D95-91F5-61EE73A2806A</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -3468,6 +3068,108 @@
 			<string>D01BB167-D813-461E-860E-3882ABD66C56</string>
 			<key>UID</key>
 			<string>F89497C1-9CE1-4CA6-A95B-41631780140A</string>
+		</dict>
+		<dict>
+			<key>Activate</key>
+			<string>Normal</string>
+			<key>CreationDate</key>
+			<real>649087656.48985004</real>
+			<key>Macros</key>
+			<array>
+				<dict>
+					<key>Actions</key>
+					<array>
+						<dict>
+							<key>KeyCode</key>
+							<integer>125</integer>
+							<key>MacroActionType</key>
+							<string>SimulateKeystroke</string>
+							<key>Modifiers</key>
+							<integer>0</integer>
+							<key>ReleaseAll</key>
+							<false/>
+						</dict>
+					</array>
+					<key>CreationDate</key>
+					<real>770071072.54092801</real>
+					<key>ModificationDate</key>
+					<real>770071101.67927504</real>
+					<key>Name</key>
+					<string>&lt;C-n&gt; = down arrow</string>
+					<key>Triggers</key>
+					<array>
+						<dict>
+							<key>FireType</key>
+							<string>Pressed</string>
+							<key>KeyCode</key>
+							<integer>45</integer>
+							<key>MacroTriggerType</key>
+							<string>HotKey</string>
+							<key>Modifiers</key>
+							<integer>4096</integer>
+						</dict>
+					</array>
+					<key>UID</key>
+					<string>86C36D12-307C-4406-84C3-2F8494304E3B</string>
+				</dict>
+			</array>
+			<key>Name</key>
+			<string>utils</string>
+			<key>ToggleMacroUID</key>
+			<string>2F16B5FE-7A5D-4996-AE4B-C9F3FA1D45C0</string>
+			<key>UID</key>
+			<string>5A5F4280-446D-4F3A-9224-618CE9C6C6F8</string>
+		</dict>
+		<dict>
+			<key>Activate</key>
+			<string>Normal</string>
+			<key>CreationDate</key>
+			<real>649087656.48985004</real>
+			<key>Macros</key>
+			<array>
+				<dict>
+					<key>Actions</key>
+					<array>
+						<dict>
+							<key>KeyCode</key>
+							<integer>126</integer>
+							<key>MacroActionType</key>
+							<string>SimulateKeystroke</string>
+							<key>Modifiers</key>
+							<integer>0</integer>
+							<key>ReleaseAll</key>
+							<false/>
+						</dict>
+					</array>
+					<key>CreationDate</key>
+					<real>770071072.54092801</real>
+					<key>ModificationDate</key>
+					<real>770071120.01585197</real>
+					<key>Name</key>
+					<string>&lt;C-p&gt; = up arrow</string>
+					<key>Triggers</key>
+					<array>
+						<dict>
+							<key>FireType</key>
+							<string>Pressed</string>
+							<key>KeyCode</key>
+							<integer>35</integer>
+							<key>MacroTriggerType</key>
+							<string>HotKey</string>
+							<key>Modifiers</key>
+							<integer>4096</integer>
+						</dict>
+					</array>
+					<key>UID</key>
+					<string>04031CC0-A104-4E48-9704-F7358A7BFADB</string>
+				</dict>
+			</array>
+			<key>Name</key>
+			<string>utils</string>
+			<key>ToggleMacroUID</key>
+			<string>2F16B5FE-7A5D-4996-AE4B-C9F3FA1D45C0</string>
+			<key>UID</key>
+			<string>5A5F4280-446D-4F3A-9224-618CE9C6C6F8</string>
 		</dict>
 		<dict>
 			<key>Activate</key>
@@ -3595,7 +3297,7 @@
 							<key>Action</key>
 							<string>MoveAndResize</string>
 							<key>HeightExpression</key>
-							<string>SCREENVISIBLE(Front,Height)*70%</string>
+							<string>SCREENVISIBLE(Front,Height)*85%</string>
 							<key>HorizontalExpression</key>
 							<string>SCREENVISIBLE(Front,Left)+10</string>
 							<key>MacroActionType</key>
@@ -3617,7 +3319,7 @@
 					<key>CreationDate</key>
 					<real>647132098.23236895</real>
 					<key>ModificationDate</key>
-					<real>715786581.23957801</real>
+					<real>762878916.12134099</real>
 					<key>Name</key>
 					<string>upper half</string>
 					<key>Triggers</key>
@@ -3721,7 +3423,7 @@
 							<key>Action</key>
 							<string>MoveAndResize</string>
 							<key>HeightExpression</key>
-							<string>SCREENVISIBLE(Front,Height)*70%</string>
+							<string>SCREENVISIBLE(Front,Height)*85%</string>
 							<key>HorizontalExpression</key>
 							<string>SCREENVISIBLE(Front,Left)+10</string>
 							<key>MacroActionType</key>
@@ -3743,7 +3445,7 @@
 					<key>CreationDate</key>
 					<real>735744843.25198805</real>
 					<key>ModificationDate</key>
-					<real>735744900.51786101</real>
+					<real>762878905.09214401</real>
 					<key>Name</key>
 					<string>upper half with space for notifications</string>
 					<key>Triggers</key>
@@ -4023,6 +3725,86 @@
 			<key>Activate</key>
 			<string>Normal</string>
 			<key>CreationDate</key>
+			<real>649087656.48985004</real>
+			<key>Macros</key>
+			<array>
+				<dict>
+					<key>Actions</key>
+					<array>
+						<dict>
+							<key>Conditions</key>
+							<dict>
+								<key>ConditionList</key>
+								<array>
+									<dict>
+										<key>AnyWindowConditionType</key>
+										<string>Contains</string>
+										<key>AnyWindowTitle</key>
+										<string>BIG-IP Edge Client</string>
+										<key>ConditionType</key>
+										<string>AnyWindow</string>
+										<key>IsFrontApplication</key>
+										<true/>
+									</dict>
+								</array>
+								<key>ConditionListMatch</key>
+								<string>All</string>
+							</dict>
+							<key>ElseActions</key>
+							<array>
+								<dict>
+									<key>KeyCode</key>
+									<integer>13</integer>
+									<key>MacroActionType</key>
+									<string>SimulateKeystroke</string>
+									<key>Modifiers</key>
+									<integer>256</integer>
+									<key>ReleaseAll</key>
+									<false/>
+								</dict>
+							</array>
+							<key>MacroActionType</key>
+							<string>IfThenElse</string>
+							<key>ThenActions</key>
+							<array/>
+							<key>TimeOutAbortsMacro</key>
+							<true/>
+						</dict>
+					</array>
+					<key>CreationDate</key>
+					<real>770082132.61590302</real>
+					<key>ModificationDate</key>
+					<real>770082228.77259696</real>
+					<key>Name</key>
+					<string>No &lt;Cmd-w&gt; on Big IP Edge Client</string>
+					<key>Triggers</key>
+					<array>
+						<dict>
+							<key>FireType</key>
+							<string>Pressed</string>
+							<key>KeyCode</key>
+							<integer>13</integer>
+							<key>MacroTriggerType</key>
+							<string>HotKey</string>
+							<key>Modifiers</key>
+							<integer>256</integer>
+						</dict>
+					</array>
+					<key>UID</key>
+					<string>FCEE7BB1-9C46-4382-B007-6069CBE6DA32</string>
+				</dict>
+			</array>
+			<key>Name</key>
+			<string>utils</string>
+			<key>ToggleMacroUID</key>
+			<string>2F16B5FE-7A5D-4996-AE4B-C9F3FA1D45C0</string>
+			<key>UID</key>
+			<string>5A5F4280-446D-4F3A-9224-618CE9C6C6F8</string>
+		</dict>
+		<dict>
+			<key>Activate</key>
+			<string>Normal</string>
+			<key>CreationDate</key>
 			<real>696803411.19891405</real>
 			<key>Macros</key>
 			<array>
@@ -4068,6 +3850,6 @@
 		</dict>
 	</array>
 	<key>UID</key>
-	<string>8B5F0E1B-5EFA-4546-B149-4E04843AF771</string>
+	<string>8AEB1FE0-10DD-41FC-AC77-166EA60027FC</string>
 </dict>
 </plist>
