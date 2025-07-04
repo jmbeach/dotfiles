@@ -7,6 +7,7 @@
 I like to disable dynamic workspaces and set there to be 10 by default.
 
 To get this to work, you need to install GNOME Tweak tool first.
+
 ```sh
 dconf write /org/gnome/mutter/dynamic-workspaces false
 dconf write /org/gnome/desktop/wm/preferences/num-workspaces 10
@@ -38,6 +39,12 @@ Go to `/org/gnome/desktop/wm/keybindings/`
 - Set "switch-applications" to `[]`
 - Set "show-desktop" to `[]`
 
+Go to `/org/gnome/settings-daemon/plugins/media-keys`
+
+- Set "terminal" to `[<Super>Return]`
+
+I use [Alacritty](https://alacritty.org/) as my default terminal emulator. Here's how you set it as default: [link](https://askubuntu.com/questions/1364954/make-alacritty-the-default-terminal-permanently)
+
 ## Install Extensions
 
 ### [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
@@ -48,7 +55,7 @@ Under "Intelligent autohide customization", I turn off "Dodge windows".
 
 ### [Walkpaper2](https://extensions.gnome.org/extension/5267/walkpaper2/)
 
-I install this so that I can have a different wallpaper on each desktop.
+I install this so that I can have a different wallpaper on each desktop. [My wallpapers](https://github.com/jmbeach/far_nearer)
 
 ### [Emoji Selector](https://extensions.gnome.org/extension/1162/emoji-selector/)
 
