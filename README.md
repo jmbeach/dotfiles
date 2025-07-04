@@ -34,5 +34,6 @@
 
 ### Autohotkey X11 (Linux)
 
-[Autohotkey X11 Config](https://github.com/jmbeach/ahk_x11-scripts)
+~~[Autohotkey X11 Config](https://github.com/jmbeach/ahk_x11-scripts)~~
 
+Instead of using an Autohotkey alternative, I'm just using as much out of the box GNOME configurations as possible (see [GNOME Config](./gnome)) and `xbindkeys` (see [./.xbindkeysrc](./.xbindkeysrc))
